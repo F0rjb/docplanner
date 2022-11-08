@@ -145,6 +145,8 @@ div.nav-list {
   font-weight: 300;
   font-family: Roboto;
   font-size: 16px;
+
+  
 }
 div.container {
   margin-left: 150px;
@@ -255,7 +257,14 @@ margin-right: 100px;
   display: flex;
 
 
+
 }
+table.logos{
+  margin-left: 500px;
+  
+
+}
+
 .logos {
   display: flexbox;
   flex-wrap: wrap;
@@ -311,50 +320,105 @@ tr {
   filter: saturate();
   opacity: 1;
 } 
-svg:hover{
-  transition: all .2s ease 0s;
-  filter: saturate();
-  color: #00ccb1;
-  opacity: 1;
-}
-#stats {
-  background: #e5faf8;
-  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
-  padding: 1.875em 0 0.625em;
-  overflow: hidden;
-  margin: 3.125rem auto 5.5rem;
- display: flexbox;
- flex-wrap: wrap;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-*, :after, :before {
-  box-sizing: inherit;
-}
-user agent stylesheet
-section {
-  display: block;
-}
-
-*, :after, :before {
-  box-sizing: inherit;
-}
-*, :after, :before {
-  box-sizing: inherit;
-}
-::selection {
-  background: #00b39b;
-  color: #fff;
-  text-shadow: none;
-}
-.stats__item {
-  background: #fff;
+div.stats__item{
+  width: 287.5px;
+  height: 250px;
+  background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
-  height: 250px;
   text-align: center;
   padding: 15px;
   font-size: .8125em;
+}
+.stats{ 
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0 0 0 0;
+  left:0px;
+  
+  background: #e5faf8;
+  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+  position: absolute; 
+  width: 1685px ;
+  height: 700px;
+  background-image: url('https://salwa-essid.github.io/docplanner/logo.png');
+  background-repeat: no-repeat;
+ 
+  
+
+}
+
+header.stats__header{
+  margin-top: 50px;
+  margin-left: 50px;
+  width: fit-content;
+  text-align: left;
+}
+h1.stats__header{text-align: left;}
+.container1,.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  position: relative;
+  gap: 300px;
+margin-left: 900px;
+top: 0;
+margin-top: 0;
+
+
+}
+
+.container1 {
+ margin-top: 30px;
+ position: absolute;
+ margin-right: 150px;
+}
+
+.container2{
+  margin-top: 300px;
+  position: absolute;
+  margin-right: 150px;
+  
+}
+section.banner{
+  display: inline;
+  background-image: url('https://salwa-essid.github.io/docplanner/logo.png');
+  background-repeat: no-repeat;
+ 
+}
+div.stats__item{
+  top:0;
+  position:absolute;
+}
+
+div.grid{
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.fourth{
+  display: inline;
+  justify-self:center;
+  position: absolute;
+  margin-top: 700px;
+  text-align: center;
+
+}
+
+div.fifth{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 10px;
+
+  margin-top: 800px;
+  margin-right: 90px;
+  margin-left: 90px;
+  
+}
+img.item1,img.item2,img.item3,img.item4,img.item5,img.item6,img.item7,img.item8{
+  height: 311px;
+  width: 380px;
 }
