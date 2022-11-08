@@ -1,3 +1,10 @@
+h1{
+  font-family: "Work sans";}
+p{font-family: Roboto;
+font-weight: 300;}
+h3{
+  font-family: "Work sans";
+}
 nav li {
   list-style-type: none;
   display: block;
@@ -37,12 +44,13 @@ nav div {
   left: 150px;
 }
 .logo-container img {
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
 }
 
 .hover li:hover {
   color: #00b39b;
+  background-color: #ececec;
 }
 .hover {
   display: none;
@@ -138,8 +146,10 @@ h2 {
 }
 div.nav-list {
   display: flex;
-  margin-left: 550px;
-  margin-top: 15px;
+justify-content: end;
+
+top: 7px;
+ 
   position: absolute;
   right: 150px;
   font-weight: 300;
@@ -149,11 +159,12 @@ div.nav-list {
   
 }
 div.container {
-  margin-left: 150px;
-  margin-right: 0%;
+
+margin-left: 150px;
+  margin-right: 150px;
   padding-left: 0%;
   padding-right: 0%;
-  left: 150%;
+  
 }
 .header h1 {
   font-family: "Work sans";
@@ -235,11 +246,13 @@ h1.stickers,
 }
 nav {
   box-shadow: 5px black;
-  position: sticky;
+  position: relative;
+  left: 0px;
 }
 .all-nav{
   position: sticky;
   box-shadow: #1b2734 5px;
+  margin-top: 10px;
 }
 .cont {
   color: #1b2734;
@@ -255,12 +268,10 @@ margin-right: 100px;
   margin-left: 150px;
   margin-right: 150px;
   display: flex;
-
-
-
+  margin-top: 100px;
 }
 table.logos{
-  margin-left: 500px;
+  margin-left: 350px;
   
 
 }
@@ -329,6 +340,7 @@ div.stats__item{
   text-align: center;
   padding: 15px;
   font-size: .8125em;
+  margin-left: -180px;
 }
 .stats{ 
   margin-left: 0px;
@@ -339,13 +351,11 @@ div.stats__item{
   background: #e5faf8;
   background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
   position: absolute; 
-  width: 1685px ;
+  width: 1350px ;
   height: 700px;
   background-image: url('https://salwa-essid.github.io/docplanner/logo.png');
   background-repeat: no-repeat;
- 
-  
-
+  z-index: -100;
 }
 
 header.stats__header{
@@ -353,17 +363,20 @@ header.stats__header{
   margin-left: 50px;
   width: fit-content;
   text-align: left;
+  display: block;
+  
 }
-h1.stats__header{text-align: left;}
+*
 .container1,.container2 {
   display: flex;
   flex-direction: row;
   justify-content:start;
   position: relative;
-  gap: 300px;
+  gap: 250px;
 margin-left: 900px;
 top: 0;
 margin-top: 0;
+margin-left: 800  px;
 
 
 }
@@ -371,19 +384,21 @@ margin-top: 0;
 .container1 {
  margin-top: 30px;
  position: absolute;
- margin-right: 150px;
+ margin-right: 170px;
 }
 
 .container2{
   margin-top: 300px;
   position: absolute;
-  margin-right: 150px;
+  margin-right: 170px;
   
 }
 section.banner{
   display: inline;
   background-image: url('https://salwa-essid.github.io/docplanner/logo.png');
   background-repeat: no-repeat;
+  z-index: -100;
+  
  
 }
 div.stats__item{
@@ -402,23 +417,76 @@ div.grid{
   justify-self:center;
   position: absolute;
   margin-top: 700px;
-  text-align: center;
+  text-align: center;z-index: -100;
 
 }
 
-div.fifth{
-  display: grid;
+section.fifth{
+
   grid-template-columns: auto auto auto auto;
-  gap: 5px;
-  background-color: #2196F3;
-  padding: 10px;
+  gap: 2px;
+ 
+  
 
   margin-top: 800px;
   margin-right: 90px;
   margin-left: 90px;
   
 }
-img.item1,img.item2,img.item3,img.item4,img.item5,img.item6,img.item7,img.item8{
-  height: 311px;
-  width: 380px;
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{width: fit-content;
+  margin: 10px 0px;
 }
+
+
+
+img.office__image{
+  height: 250px;
+  width: 250px;
+}
+div.fifth{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+ justify-content: space-evenly;
+  width: 1fr;
+
+  margin: 0 0 0 0;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+/*div.row1{
+  width: fit-content;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+justify-content: flex-start;
+flex-direction: row; 
+border-style: solid;
+border-width: 0.1px;}
+div.row2{
+  width:10000;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 0.1px;
+flex-wrap: wrap;}*/
+
+  
+
+
+  .sixth{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+    color: #000000;
+  }
+.btn-sm{
+  align-self: center;
+}
+
+footer{ border-style: solid;
+border-width: 0.1px;}
